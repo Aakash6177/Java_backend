@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/movies")
+@RequestMapping("/movies")
 public class MovieController {
     @GetMapping
     public ResponseEntity<String> allMovies(){
